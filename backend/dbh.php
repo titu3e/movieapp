@@ -1,5 +1,6 @@
 <?php
-  $conn = mysqli_connect("us-cdbr-east-02.cleardb.com","b226643cd887f1","7fe23f7f","heroku_da19d50f9fb9eea");
+  $conn = mysqli_connect("ec2-54-87-112-29.compute-1.amazonaws.com","d8mad0m2evcfki","exgyzwldvsmlsd","
+ff712ac1d2213922f40be7a01167249fa7face3757ab2dcd095fbed0949ef00d");
   if(! $conn ) {
       die('Could not connect: ' . mysqli_error());
    }
